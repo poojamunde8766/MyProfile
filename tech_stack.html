@@ -2,6 +2,10 @@
 <html>
     <head>
         <title> Technical Stack </title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+
         <style>
             table,
             th,
@@ -9,26 +13,35 @@
                 border:1px solid rgb(160, 95, 111);
             }
 
-            th, td{
-                text-align: center;
+            .center{
+                margin-left: auto;
+                margin-right: auto;
             }
 
             h2 span{
-                background-color: cadetblue;
-                text-transform:capitalize;
+                font-family: 'Roboto Slab', serif;
+                background-color: rgb(189, 218, 219);
             }
 
+            body{
+                background-color:rgb(250, 232, 209);
+                border-style: solid;
+                  border-radius: 10px;
+                  width: 1100px;
+                  height: 575px;
+                  
+            }
         </style>
     </head>
     <body>
-        <h2><span>Technology and tools used in project</span></h2>
-        <table>
-            <thead>
-                <th colspan="2">Technical Stack</th>
+        <h2 style="text-align:center ;"><span>Technology and tools used in project</span></h2>
+        <table class="center">
+            <thead >
+                <th style="background-color:cadetblue;" colspan="2">Technical Stack</th>
             </thead>
             <tbody>
                 <tr>
-                    <td rowspan="5"> Technology </td>
+                    <td style="background-color:cadetblue;" rowspan="5"> Technology </td>
                     <td>HTML+CSS</td>
                 </tr>
                 <tr>
@@ -44,7 +57,7 @@
                     <td>Bootstrap</td>
                 </tr>
                 <tr>
-                    <td rowspan="2">Tools</td>
+                    <td style="background-color:cadetblue;" rowspan="2">Tools</td>
                     <td>GIT+GitHub</td>
                 </tr>
                 <tr>

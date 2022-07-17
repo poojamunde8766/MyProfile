@@ -2,6 +2,9 @@
 <html>
     <head>
           <title>Education</title>
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
           <style>
             table,
             th,
@@ -9,25 +12,38 @@
                 border:1px solid rgb(151, 26, 57);
              }
 
-             th, td{
-                text-align: center;
-             }
-
+             
              h2 span{
-                background-color: cadetblue;
-                text-transform:capitalize;
+                font-family: 'Roboto Slab', serif;
+                background-color:rgb(189, 218, 219); 
+                
+            }
+
+            .center{
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            body{
+               
+                   background-color:rgb(250, 232, 209);
+                   border-style: solid;
+                  border-radius: 10px;
+                  width: 1100px;
+                  height: 575px;
+                  
             }
         </style> 
     </head>
     <body>
-          <h2><span>Education Details</span></h2>
+          <h2 style="text-align:center ;"><span>Education Details</span></h2>
     </body>
-    <table>
+    <table class="center">
       <thead>
-          <th> Degree </th>
-          <th> School/College </th>
-          <th> University/Board </th>
-          <th> Passing Year</th>
+          <th style="background-color:cadetblue;"> Degree </th>
+          <th style="background-color:cadetblue;"> School/College </th>
+          <th style="background-color:cadetblue;"> University/Board </th>
+          <th style="background-color:cadetblue;"> Passing Year</th>
       </thead>
       <tbody>
             <tr>
